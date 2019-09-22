@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+    width: 1024px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    line-height: normal;
+}
+
+h2{
+    font-size: 20px;
+    line-height: inherit;
+}
+
+h3, code{
+    padding: 1rem;
+}
+
+div, section{
+    padding: 1%;
+}
+
+dl{
+    display: block;
+    margin-block: 1em;
+    margin-inline: 0;
+}
+
+
+
+p, li{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+ul{
+    display: block;
+    margin-inline: 0;
+    padding-inline-start: 40px;
+}
+
+ul, strong{
+    list-style-type: disc;
+}
+
+strong, h2, h3{
+    font-weight:bolder;
+}
+
+.avatar{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.education {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+.etc{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.layout{
+    overflow: hidden;
+}
+
+.layout DIV { float: left; }
+
+.skills dd {
+    display: inline-block;
+    width: 50rem;
+    margin: 10px;
+    background-color: #e8e8e8;
+}
+
+.skill-level {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4470c4;
+}
+
+.footer{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: black;
+}
+
+
+TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+    padding: 5px; /* Поля вокруг ячеек */
+}
+TD#leftCol {
+    width: 40%; /* Ширина левой колонки */
+
+}
+
+#spacer {
+    width: 10px; /* Расстояние между колонками */
+}
