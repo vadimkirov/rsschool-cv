@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vadim Kirov</title>
+</head>
+<body data-gr-c-s-loaded="true">
+<header>
+    <div class="card">
+        <table cellspacing="0" >
+            <tr>
+                <td id="leftCol">
+                    <img  class="avatar" src="image/me_avatar.jpg" width="150" height="150" alt="myFoto">
+                    <h1>Vadim Kirov</h1></td>
+                <td id="spacer"></td>
+                <td >
+                    <div class="container">
+                        <h3>Contact Info</h3>
+                        <ul >
+                            <li>Cellphone:  +79103250490</li>
+                            <li>GitHub card:<a href>my-card</a></li>
+                            <li>E-mail:     vadimkirov@ya.ru</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</header>
+<main>
+    <section>
+        <h2>About me</h2>
+        <p>
+            I have been working in the IT sector for many years as an engineer and head of a service center.
+        </p>
+        <p>
+            A few years ago he became interested in programming and began to study Java. I realized that I want to do this professionally.
+        </p>
+        <p>
+            When working with web projects based on Spring, knowledge of HTML, CSS, Javascript was required.
+            For further training, it was decided to take training at RS School.
+            In the courses I also hope to find like-minded people, and possibly new friends.
+        </p>
+
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <div>
+            <dl class="skills">
+                <dd>
+                    <div class="skill-level" style="width: 97%;">IT Services Multifunction Printers -> 97%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 95%;"> Java SE -> 95%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 50%;">Algorithms -> 50%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 50%;">Java EE + SPRING 5   -> 50%</div>
+                <dd>
+                    <div class="skill-level" style="width: 20%;">SQL -> 20%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 40%;">HTML -> 40%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 20%;">CSS -> 20%</div>
+                </dd>
+                <dd>
+                    <div class="skill-level" style="width: 20%;">JS -> 20%</div>
+                </dd>
+
+            </dl>
+        </div>
+    </section>
+    <section>
+        <h2>Code examples</h2>
+        <h3>Spring5</h3>
+        <code>
+                <pre>
+                //Create ship
+                @RequestMapping(value = "/ships", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+                public ResponseEntity &lt;Ship&gt; create(@RequestBody @Validated Ship ship) {
+                if(!service.isValidShip(ship))return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+                Ship savedShip = service.addShip(ship);
+                return new ResponseEntity<>(savedShip, HttpStatus.OK);
+                }
+                </pre>
+        </code>
+    </section>
+    <section>
+        <h2>Experience</h2>
+        <p>
+            Today, this is a completed project where you can see the skills: <a href="https://github.com/vadimkirov/cosmoport">COSMOPORT</a>
+        </p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <ul class="education">
+            <li>
+                <strong>Kharkiv National University of Radio Electronics, NURE</strong>
+            </li>
+            <ul>
+                <li>
+                    <strong>Faculty:</strong>
+                    Design and production technology of electronic computing tools
+                </li>
+                <li>
+                    <strong>Expiration date:</strong>
+                    1994
+                </li>
+            </ul>
+            <li class="etc">
+                There are several certificates of 'Udemy', 'Udacity' and others.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>English level</h2>
+        <p>Intermediate</p>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        FOR =>> © 2019 The Rolling Scopes
+    </div>
+</footer>
+</body>
+</html>
